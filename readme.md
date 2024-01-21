@@ -10,3 +10,7 @@ https://angular.io/tutorial/first-app
 * @input
 * template reference variable
 * template driven form
+
+### housing-app2
+* use HttpClient to receive Json data
+* use auto generated routes class
