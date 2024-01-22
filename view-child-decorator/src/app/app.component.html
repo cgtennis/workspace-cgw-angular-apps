@@ -1,0 +1,14 @@
+<h3>calculate age based on date picker</h3>
+<p> select an old date, click anywhere for date picker to lose fosus 'blue' event </p>
+<div>
+  <label>DOB: </label>
+  <input type="date" #dobInput (blur)="calculatAge()">
+</div>
+<div>
+  <label>Age: </label>
+  <input type="text" #ageInput>
+
+</div>
+
+<app-demo></app-demo>
+{{demoComp.getHelloMessage()}}
